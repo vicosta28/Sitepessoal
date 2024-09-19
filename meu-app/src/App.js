@@ -11,11 +11,12 @@ function App() {
       <header>
           <Header/>
       </header>
-      <main>
+      <main id='Quem_sou_eu?'>
+        
           <Hero/>
 
           <section>
-            <h2 class="titulos">Curiosidades sobre mim:</h2>
+            <h2 id='curiosidades' class="titulos">Curiosidades sobre mim:</h2>
             <div className='curiosidades'>
               <Curiosidades img='/imagens/foto2.jpeg' texto='Voltei a infância para comemorar meus 18 anos.'/>
               <Curiosidades img='/imagens/diabetes.jpeg' texto='Aos 12 anos fui diagnósticada com diabetes tipo 1.'/>
@@ -24,7 +25,7 @@ function App() {
           </section>
           <section>
           <h2 class="titulos"> 3 Projetos do Github:</h2>
-             <div className='projetos_do_github'>
+             <div id='projetos_do_github' className='projetos_do_github'>
                 <h1>Jogo da Memoria</h1>
                 <p> Jogo criado na Materia de Programação para internet, usando HTML, CSS e JS. Um clássico jogo da memoria, com os personagens da série Bridgerton.</p>
                 <a href="https://github.com/lauralemos05/JogodaMemoria">Clique Aqui</a>
