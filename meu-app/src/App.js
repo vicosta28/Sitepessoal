@@ -21,7 +21,7 @@ function App() {
               <Curiosidades img='/imagens/foto2.jpeg' texto='Voltei a infância para comemorar meus 18 anos.'/>
               <Curiosidades img='/imagens/diabetes.jpeg' texto='Aos 12 anos fui diagnósticada com diabetes tipo 1.'/>
               <Curiosidades img='/imagens/praia.jpeg' texto='Gosto de ir a Praia.'/>
-              <Curiosidades img='/imagens/belem.jpeg' texto='Meu hobby favorito é viajar, essa foto foi em Belem/PA'/>
+              <Curiosidades img='/imagens/belem.jpeg' texto='Meu hobby favorito é viajar, essa foto foi em Belém/PA'/>
             </div>
           </section>
           <section>
